@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Safa Taha | Embedded Systems & Firmware</title>
+  <meta name="description" content="Portfolio of Safa Taha, an Electrical Engineering student focused on Embedded Systems, and Hardware Design.">
+  <meta name="author" content="Safa Taha">
+  <meta name="theme-color" content="#07111f">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Safa Taha| Embedded Systems Portfolio">
+  <meta property="og:description" content="Custom PCB design, ESP32/STM32 firmware, and embedded systems projects.">
+  <meta property="og:image" content="assets/projects/DUALMCU.png">
+
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a class="brand" href="#top" aria-label="Safa Tahahome">
+        <span class="brand-mark" aria-hidden="true">ST</span>
+        <span class="brand-text">Safa Taha</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+        aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cv" href="assets/documents/CV2026.pdf" target="_blank" rel="noopener">CV</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+        <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path>
+        </svg>
+        <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            Open to Embedded Systems Internships
+          </p>
+
+          <h1>
+            Safa Taha
+            <span>Electrical Engineering Student · Embedded Systems & Hardware Design</span>
+          </h1>
+
+          <p class="hero-summary">
+            I design PCBs and write firmware for ESP32 and STM32 platforms —
+            from bare-metal board bring-up to peripheral-driven applications —
+            and build Python based tooling for telemetry, testing, and visualization.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">
+              View Projects
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+            </a>
+            <a class="button button-secondary" href="assets/documents/CV2026.pdf" target="_blank" rel="noopener">
+              Download CV
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"></path></svg>
+            </a>
+          </div>
+
+          <div class="social-links" aria-label="Professional links">
+            <a href="https://github.com/Safa-Taha" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.69c-2.78.61-3.37-1.18-3.37-1.18-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.57 9.57 0 0 1 12 6.68a9.57 9.57 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"></path></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/safataha/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2zM4 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"></path></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:safa.taha.1@iliauni.edu.ge">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4z"></path><path d="m4 6 8 7 8-7"></path></svg>
+              Email
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Embedded system architecture illustration">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+              <span>firmware_profile.c</span>
+            </div>
+            <pre><code><span class="code-muted">// Current focus</span>
+<span class="code-type">typedef struct</span> {
+  <span class="code-type">const char</span> *mcu;
+  <span class="code-type">const char</span> *language;
+  <span class="code-type">const char</span> *target;
+} Profile;
+
+Profile Safa = {
+  .mcu      = <span class="code-string">"ESP32-S3-MINI-1"</span>,
+  .language = <span class="code-string">"Embedded C"</span>,
+  .target   = <span class="code-string">"Custom PCB + Firmware"</span>
+};
+
+<span class="code-function">build</span>(&Safa);<span class="cursor">_</span></code></pre>
+          </div>
+
+          <div class="signal-card signal-card-one">
+            <span>UART</span>
+            <strong>115200</strong>
+          </div>
+          <div class="signal-card signal-card-two">
+            <span>MCU</span>
+            <strong>ESP32-S3</strong>
+          </div>
+          <div class="signal-card signal-card-three">
+            <span>LANG</span>
+            <strong>C</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact-section" aria-label="Technical focus">
+      <div class="container focus-strip reveal">
+        <span>Embedded C</span>
+        <i aria-hidden="true"></i>
+        <span>Custom PCB Design</span>
+        <i aria-hidden="true"></i>
+        <span>STM32 HAL</span>
+        <i aria-hidden="true"></i>
+        <span>Power Electronics</span>
+        <i aria-hidden="true"></i>
+        <span>UART Telemetry</span>
+        <i aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Selected work</p>
+            <h2>Featured Projects</h2>
+          </div>
+        </div>
+
+        <article class="project-card project-card-featured reveal">
+          <div class="project-image">
+            <img src="assets/projects/ESP32-S3-MINI.png" alt="Custom PCB carrier board for the ESP32-S3-MINI-1 module">
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-number">01</span>
+              <span class="project-label">Featured project</span>
+            </div>
+
+            <h3>ESP32-S3-MINI Development Board</h3>
+
+            <p>
+              A compact ESP32-S3-MINI dev board with dual USB-C — native USB
+              plus a dedicated FT231XQ USB-to-UART bridge for programming and
+              debug — built for Wi-Fi/BLE prototyping with reliable power
+              delivery under RF load.
+            </p>
+
+            <div class="project-highlights">
+              <div>
+                <span>Module</span>
+                <strong>ESP32-S3-MINI-1</strong>
+              </div>
+              <div>
+                <span>Design Tool</span>
+                <strong>Altium Designer</strong>
+              </div>
+              <div>
+                <span>Interface</span>
+                <strong>Dual USB-C</strong>
+              </div>
+            </div>
+
+            <ul class="tag-list" aria-label="Project technologies">
+              <li>ESP32-S3-MINI-1</li>
+              <li>Altium Designer</li>
+              <li>FT231XQ USB-UART</li>
+              <li>Dual USB-C</li>
+              <li>Power Regulation</li>
+              <li>Wi-Fi / BLE 5</li>
+              <li>PCB Layout</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="text-link" href="https://github.com/Safa-Taha/embedded-works/tree/main/ESP32-S3" target="_blank" rel="noopener">
+                View repository
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-image-small">
+            <img src="assets/projects/DUALMCU.png" alt="Illustration of a dual-microcontroller STM32 electric vehicle control module with telemetry">
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-number">02</span>
+              <span class="project-label">Secure dual-MCU project</span>
+            </div>
+
+            <h3>Secure Dual MCU (STM32 + ESP32) Control Board</h3>
+
+            <p>
+              Pairs an STM32 for real-time control with an ESP32 for Wi-Fi
+              connectivity, plus a dedicated FTDI UART so the STM32 can be
+              accessed independently. An ATECC608 crypto element handles
+              secure authentication for the board.
+            </p>
+
+            <div class="project-highlights">
+              <div>
+                <span>Architecture</span>
+                <strong>STM32 + ESP32</strong>
+              </div>
+              <div>
+                <span>Security</span>
+                <strong>ATECC608</strong>
+              </div>
+              <div>
+                <span>Interface</span>
+                <strong>Independent FTDI UART</strong>
+              </div>
+            </div>
+
+            <ul class="tag-list" aria-label="Project technologies">
+              <li>STM32</li>
+              <li>ESP32</li>
+              <li>ATECC608</li>
+              <li>FTDI UART</li>
+              <li>Secure Authentication</li>
+              <li>Altium Designer</li>
+              <li>Embedded C</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="text-link" href="https://github.com/Safa-Taha/embedded-works/tree/main/Dual-MCU-control-board" target="_blank" rel="noopener">
+                View repository
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-image-small">
+            <img src="assets/projects/charging-module.png" alt="Illustration for a dual-USBC charging module">
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-number">03</span>
+              <span class="project-label">Power electronics PCB design</span>
+            </div>
+
+            <h3>USB-C Charging Module v0.01</h3>
+
+            <p>
+              A power-bank style board that charges a single-cell Li-ion/Li-Po
+              battery from USB-C, boosts it to 5V, and outputs over USB-C —
+              with power-path switching so the load draws directly from USB
+              when a cable is connected.
+            </p>
+
+            <div class="project-highlights">
+              <div>
+                <span>Function</span>
+                <strong>Power Charging and Delivery</strong>
+              </div>
+              <div>
+                <span>Design Tool</span>
+                <strong>Altium Designer</strong>
+              </div>
+              <div>
+                <span>Focus</span>
+                <strong>Power Path Switching</strong>
+              </div>
+            </div>
+
+            <ul class="tag-list" aria-label="Project technologies">
+              <li>USB-C Power Path</li>
+              <li>Li-Ion/Li-Po Charging</li>
+              <li>Altium Designer</li>
+              <li>PCB Layout</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="text-link" href="https://github.com/Safa-Taha/embedded-works/tree/main/charging-module" target="_blank" rel="noopener">
+                View repository
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-image-small">
+            <img src="assets/projects/solar-shield.png" alt="Solar charging shield PCB for microcontroller power systems">
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-number">04</span>
+              <span class="project-label">Power electronics project</span>
+            </div>
+
+            <h3>Solar Panel Charging Shield</h3>
+
+            <p>
+              A stackable shield that converts raw solar panel input into a
+              regulated, battery-backed rail for microcontroller projects —
+              built for solar-powered embedded and IoT deployments without
+              mains power.
+            </p>
+
+            <div class="project-highlights">
+              <div>
+                <span>Function</span>
+                <strong>Solar Charge Management</strong>
+              </div>
+              <div>
+                <span>Design Tool</span>
+                <strong>Altium Designer</strong>
+              </div>
+              <div>
+                <span>Output</span>
+                <strong>Regulated MCU Rail</strong>
+              </div>
+            </div>
+
+            <ul class="tag-list" aria-label="Project technologies">
+              <li>Solar Charging</li>
+              <li>Battery Management</li>
+              <li>Voltage Regulation</li>
+              <li>Altium Designer</li>
+              <li>Shield Form Factor</li>
+              <li>Power PCB Layout</li>
+            </ul>
+
+            <div class="project-actions">
+              <a class="text-link" href="https://github.com/Safa-Taha/embedded-works/tree/main/solar-shield" target="_blank" rel="noopener">
+                View repository
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <div class="section-heading reveal">
+      <div>
+        <p class="section-kicker">Technical foundation</p>
+        <h2>Skills</h2>
+      </div>
+    </div>
+
+    <div class="skills-grid">
+
+      <article class="skill-card reveal">
+        <div class="skill-icon" aria-hidden="true">01</div>
+        <h3>Embedded Programming</h3>
+        <ul>
+          <li><strong>Embedded C/C++</strong><span>Firmware development for STM32, ESP32, and Arduino</span></li>
+          <li><strong>STM32 HAL</strong><span>Peripheral drivers, modular firmware, and real-time applications</span></li>
+          <li><strong>Python</strong><span>Serial communication, automation, and embedded utilities</span></li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon" aria-hidden="true">02</div>
+        <h3>Embedded Systems</h3>
+        <ul>
+          <li><strong>STM32</strong><span>F0, F1, and F4 series development using CubeIDE</span></li>
+          <li><strong>ESP32</strong><span>S3, Mini, and WROOM platforms</span></li>
+          <li><strong>Arduino & Raspberry Pi</strong><span>Rapid prototyping and embedded applications</span></li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon" aria-hidden="true">03</div>
+        <h3>Hardware Design</h3>
+        <ul>
+          <li><strong>PCB Design</strong><span>Multi-layer schematic capture and PCB layout</span></li>
+          <li><strong>Power Electronics</strong><span>Voltage regulation, feedback networks, and power distribution</span></li>
+          <li><strong>Signal Integrity</strong><span>Decoupling, grounding, and mixed-signal design practices</span></li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon" aria-hidden="true">04</div>
+        <h3>Communication & Peripherals</h3>
+        <ul>
+          <li><strong>I²C · SPI · UART · CAN</strong><span>Embedded communication protocols</span></li>
+          <li><strong>GPIO · ADC · DAC · PWM · DMA</strong><span>Peripheral configuration and control</span></li>
+          <li><strong>Timers & Interrupts</strong><span>Real-time event-driven firmware</span></li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon" aria-hidden="true">05</div>
+        <h3>Development Tools</h3>
+        <ul>
+          <li><strong>STM32CubeIDE & CubeMX</strong><span>Configuration, debugging, and firmware development</span></li>
+          <li><strong>Altium Designer · KiCad</strong><span>Schematic design and PCB layout</span></li>
+          <li><strong>Git · GitHub · VS Code</strong><span>Version control and software development</span></li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon" aria-hidden="true">06</div>
+        <h3>Robotics</h3>
+        <ul>
+          <li><strong>ROS 2</strong><span>Robot software development and communication</span></li>
+          <li><strong>Control Systems</strong><span>PID control, sensor fusion, and motion control</span></li>
+          <li><strong>Sensor Integration</strong><span>IMUs, encoders, and embedded robotic systems</span></li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="section-kicker">Get in touch</p>
+          <h2>Let's talk embedded systems.</h2>
+          <p>
+             Firmware, STM32, PCB design, or anything IoT and ROS adjacent — I like digging
+             into how things actually work under the hood. Reach out if you want
+             to trade ideas or just nerd out about a project :)
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:safa.taha.1@iliauni.edu.ge">
+            Email me
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4z"></path><path d="m4 6 8 7 8-7"></path></svg>
+          </a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/safataha/" target="_blank" rel="noopener">
+            LinkedIn
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="current-year">2026</span> Safa Taha.</p>
+    </div>
+  </footer>
+</body>
+</html>
